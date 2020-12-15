@@ -1,8 +1,8 @@
-FROM erlang:22.3.4.9-alpine
+FROM erlang:23.1.5.0-alpine
 
 # elixir expects utf8.
-ENV ELIXIR_VERSION="v1.9.4" \
-    ELIXIR_VERSION_SHA="f3465d8a8e386f3e74831bf9594ee39e6dfde6aa430fe9260844cfe46aa10139" \
+ENV ELIXIR_VERSION="v1.11.2" \
+    ELIXIR_VERSION_SHA="318f0a6cb372186b0cf45d2e9c9889b4c9e941643fd67ca0ab1ec32710ab6bf5" \
     LANG=C.UTF-8
 
 RUN set -xe \
